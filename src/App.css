@@ -1,6 +1,29 @@
-
-
 .background{
   background-color: #E5E5E5;
+  width: 1440px;
+  height: 1769px;
 
+}
+
+.SB-flex1{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.SB-flex2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 40px;
+  margin-bottom: 47px;
+}
+
+.SB-flex3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 40px;
+  margin-right: 70px;
+  margin-bottom: 30px;
 }
