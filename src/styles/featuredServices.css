@@ -1,0 +1,91 @@
+.FS-pageContainer{
+width: 1042px;
+height: 388px;
+border-radius: 15px;
+background-color: white;
+}
+
+.FS-pageTitle{
+margin-top: 15px;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+}
+
+.FS-title{
+margin-top: 20px;
+font-size: 20px;
+font-family: 'Nunito Sans', sans-serif ;
+color: darkblue;
+font-weight: 700;
+display: flex;
+flex-direction: row;
+}
+
+.FS-title2{
+    margin-left: 754px;
+    color: #01CCCE;
+}
+
+
+.FS-subtitle{
+margin-top: 5px;
+font-size: 16px;
+font-family: 'Nunito Sans', sans-serif ;
+color: #6F7FAF;
+}
+
+.FS-mainContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.FS-container{
+display: flex;
+background-color: white;
+flex-direction: column;
+align-items: flex-start;
+width: 238px;
+height: 266px;
+margin-top: 25px;
+margin-bottom: 25px;
+border-radius: 15px;
+/* margin-right: 25px; */
+}
+
+.FS-image{
+margin-bottom: 15px;
+width: 238px;
+height: 116px;
+}
+
+.FS-content{
+margin-bottom: 40px;
+font-family: 'Nunito Sans', sans-serif ;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #0E1B42;
+width: 238px;
+height: 50px;
+display: flex;
+justify-content: center;
+}
+
+.FS-content > div{
+width: 208px;
+}
+
+.FS-button{
+margin-bottom: 15;
+background-color: yellow;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+width: 208px;
+height: 40px;
+align-items: center;
+align-self: center;
+}
