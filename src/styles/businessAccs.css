@@ -33,14 +33,13 @@ color: #6F7FAF ;
 
 .BA-container {
 display: flex;
-background-color: white;
+background-color: #FFFFFF;
 flex-direction: column;
 align-items: flex-start;
 width: 1042px;
 height: 1192px;
 margin-top: 47px;
 border-radius: 15px;
-background-color: white;
 margin-bottom: 30px;
  }
 
@@ -128,4 +127,12 @@ height: 40px;
 align-items: center;
 font-size: 14px;
 
+}
+
+@media (max-width: 30px) {
+
+    .BA-subContainer {
+        background-color: green;
+    }
+    
 }

@@ -210,6 +210,7 @@ const businessAccs = () => {
                     <div className='icons'>
                         <div>10</div>
                     </div>
+                
                 </div>
                 <div className='contentContainer1'>
                     <div>Savings Account-i </div>
