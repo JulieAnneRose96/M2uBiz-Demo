@@ -1,64 +1,68 @@
-.h-mainContainer{
-display: flex;
-flex-direction: row;
-/* justify-content: space-between;
+.h-mainContainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between;
 align-items: center; */
-width: 1152px;
-height: 68px;
-left: 288px;
-background: #FFFFFF;
-border-radius: 1px;
+  /* width: 1152px; */
+  height: 68px;
+  /* left: 288px; */
+  background: #ffffff;
+  border-radius: 1px;
 }
 
-.h-subContainer{
-    margin-top: 20px;
-    margin-bottom: 18px;
-    margin-left: 42px;
-    align-self: center;
-    display: flex;
-    
+.h-subContainer {
+  /* margin-top: 20px;
+    margin-bottom: 18px; */
+  margin-left: 328px;
+  align-self: center;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
-.h-icon{
-width: 26.67px;
-height: 26.36px;
+.h-icon {
+  width: 26.67px;
+  height: 26.36px;
 }
 
-.h-content{
-    margin-left: 10.33px;
-    height: 14px;
-    font-family: 'Nunito Sans', sans-serif;
-font-size: 16px;
-line-height: 14px;
-color: #0E1B42;
+.h-content {
+  margin-left: 10.33px;
+  height: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 14px;
+  color: #0e1b42;
 }
 
 .h-content :nth-child(1) {
-	font-weight: 700;
+  font-weight: 700;
 }
 
-.h-subcontent{
-    color: gray;
-    font-size: 14px;
-    margin-top: 2px;
-    font-size: 12px;
-    font-family: 'Nunito Sans', sans-serif;
-
-    
+.h-subcontent {
+  color: gray;
+  font-size: 14px;
+  margin-top: 2px;
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.h-icon2{
-    width: 18px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 42px;
-    margin-left: 807px;
+.h-icon2 {
+  width: 18px;
+  height: 20px;
+  /* margin-top: 5px; */
+  /* margin-right: 42px;
+    margin-left: 807px; */
 }
 
-.h-icon3{
-    width: 18px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 27.57px;
+.h-icon3 {
+  width: 18px;
+  height: 20px;
+  margin-left: 42px;
+  /* margin-top: 5px;
+    margin-right: 27.57px; */
 }
 
+.test {
+  display: flex;
+  margin-right: 27.5px;
+}
