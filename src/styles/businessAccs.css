@@ -161,7 +161,7 @@ font-size: 14px;
     .BA-searchBar{
         width: 345px;
         height: 40px;
-        margin-left: auto;
+        margin-left: -15px;
         margin-top: 25px;
         }
         

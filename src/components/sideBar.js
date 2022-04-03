@@ -8,8 +8,18 @@ const header = () => {
         <>
         <div className='SB-mainContainer'>
             <div className='SB-container' >
-                <div className='logo'>
-                    <img src={require('../Images/M2U-Biz-Logo_Yellow.png')} />
+                <div  className='logo'>
+                    <div className='subLogo1'>
+                        <img src={require('../Images/naviIcon.png')} />
+                    </div>
+
+                    <div className='subLogo2'>
+                        <img src={require('../Images/M2U-Biz-Logo_Yellow.png')} />
+                    </div>
+
+                    <div className='subLogo3'>
+                        <img src={require('../Images/notificationIcon.png')} />
+                    </div>
                 </div>
 
                 <div className='SB-subContainer'>

@@ -16,11 +16,25 @@ flex-direction: column;
 }
 
 .logo{
-Width: 227px;
-Height: 33px;
-margin-top: 35px;
-margin-right: 29.38px;
-margin-left: 31.17px;
+    Width: 227px;
+    Height: 33px;
+    margin-top: 35px;
+    margin-right: 29.38px;
+    margin-left: 31.17px;
+}
+
+.subLogo1 {
+    margin-left: 19px;
+    display: none;
+}
+
+.subLogo2 {
+    margin-right: 29.38px;
+}
+
+.subLogo3 {
+    margin-right: 19px;
+    display: none;
 }
 
 .SB-subContainer{
@@ -79,6 +93,25 @@ width: 167px;
         height: 100%;
         justify-content: center;
         align-items: center;
+
+        /* Width: 227px;
+        Height: 33px;
+        margin-top: 35px; */
+    }
+
+    .subLogo1 {
+        margin-left: 19px;
+        display: contents;
+    }
+    
+    .subLogo2 {
+        margin-left: 51px;
+        margin-right: 25px;
+    }
+    
+    .subLogo3 {
+        margin-right: 19px;
+        display: contents;
     }
 
    .SB-subContainer {

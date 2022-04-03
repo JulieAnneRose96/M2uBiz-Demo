@@ -22,7 +22,9 @@ html {
   margin-top: 47px;
 }
 
-@media (max-width: 375px) {
+
+
+@media (max-width: 378px) {
 .background {
   width: 400px;
 }
