@@ -6,25 +6,16 @@ import SideBar from './components/sideBar';
 
 function App() {
   return (
-    <>
-
-    <div className='background'>
-        <div className='SB-flex1'>
-          <SideBar />
-        </div>
-
-        <div  className='SB-flex2'>
-          <Header />
-            <div  className='SB-flex3'>
-              <BizAccs />
-              <FeaturedServices /> 
-            </div> 
-          
+    <div className="SB-flex1">
+    <SideBar />
+    <div className="SB-flex2">
+      <Header />
+      <div className="SB-flex3">
+        <BizAccs />
+        <FeaturedServices />
       </div>
-    
     </div>
-   
-    </>
+  </div>
   );
 }
 

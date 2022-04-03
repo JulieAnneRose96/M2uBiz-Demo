@@ -1,10 +1,12 @@
 .SB-mainContainer{
-display: flex;
-flex-direction: column;
-Width: 288px;
-Height: 1769px;
-background: #0E1B42;
-}
+    display: flex;
+    flex-direction: column;
+    Width: 288px;
+    Height: 100%;
+    /* position: fixed; */
+    background: #0E1B42;
+    z-index: 100;
+    }
 
 .SB-container{
 Width: 288px;
@@ -62,13 +64,21 @@ width: 167px;
 @media (max-width: 375px) {
 
     .SB-mainContainer {
-        Width: 375px;
+        Width: 100%;
         Height: 70px;
     }
 
+    .SB-container{
+        width: 100%;
+    }
     .logo {
-        margin-top: 22px;
-        margin-left: 95px;
+
+        margin: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
    .SB-subContainer {
