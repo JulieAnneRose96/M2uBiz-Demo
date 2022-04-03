@@ -54,14 +54,15 @@ width: 982px;
 border-radius: 20px;
 }
 
-.BA-subContainer :nth-child(2) {
+.BA-subContainer :nth-child(1) {
 	margin-right: auto; /*applied only to the right*/
 }
 
 .BA-subContainer2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
 
 .icons {
 border: 1px solid yellow;
@@ -76,6 +77,10 @@ margin-top: 25px;
 font-size: 14px;
 align-items: center;
 margin-left: 30px;  
+}
+
+.iconContent {
+    margin-left: 10px;
 }
 
 .icons :nth-child(1) {
@@ -143,7 +148,7 @@ font-size: 14px;
     display: flex;
     flex-direction: column;
     width: 375px;
-    height: 2900px;
+    height: 1850px;
     }
 
     .BA-title{

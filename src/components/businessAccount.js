@@ -20,7 +20,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>01</div>
+                            <div className='iconContent'>01</div>
                             </div>
                     </div>
                     <div className='contentContainer1'>
@@ -45,7 +45,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                         <div>
                             <div className='icons'>
-                                <div>02</div> 
+                            <div className='iconContent'>02</div> 
                             </div>
                         </div>
                         <div className='contentContainer1'>
@@ -69,7 +69,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                        <div>03</div>
+                        <div className='iconContent'>03</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>
@@ -93,7 +93,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                         <div>
                             <div className='icons'>
-                            <div>04</div>
+                            <div className='iconContent'>04</div>
                             </div>
                         </div>
                         <div className='contentContainer1'>
@@ -117,7 +117,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                         <div>
                             <div className='icons'>
-                                <div>05</div>
+                            <div className='iconContent'>05</div>
                             </div>
                         </div>
                         <div className='contentContainer1'>
@@ -141,7 +141,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>06</div>
+                        <div className='iconContent'>06</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>
@@ -165,7 +165,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>07</div>
+                        <div className='iconContent'>07</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>
@@ -188,7 +188,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>08</div>
+                        <div className='iconContent'>08</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>
@@ -211,7 +211,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>09</div>
+                        <div className='iconContent'>09</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>
@@ -234,7 +234,7 @@ const businessAccs = () => {
                 <div className='BA-subContainer2'>
                     <div>
                         <div className='icons'>
-                            <div>10</div>
+                        <div className='iconContent'>10</div>
                         </div>
                     </div>
                     <div className='contentContainer1'>

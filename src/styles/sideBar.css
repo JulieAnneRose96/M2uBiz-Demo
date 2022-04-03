@@ -59,9 +59,25 @@ margin-left: 88px;
 width: 167px;
 }
 
-/* .SB-icon{
-    margin-top: 42px;
-    width: 16px;
-    height: 20px; 
-} */
+@media (max-width: 375px) {
+
+    .SB-mainContainer {
+        Width: 375px;
+        Height: 70px;
+    }
+
+    .logo {
+        margin-top: 22px;
+        margin-left: 95px;
+    }
+
+   .SB-subContainer {
+       display: none;
+   }
+
+   .SB-subContainer2 {
+    display: none;
+   }
+  
+  }
 
