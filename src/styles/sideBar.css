@@ -9,6 +9,8 @@ background: #0E1B42;
 .SB-container{
 Width: 288px;
 Height: 1769px;
+display: flex;
+flex-direction: column;
 }
 
 .logo{

@@ -89,3 +89,25 @@ height: 40px;
 align-items: center;
 align-self: center;
 }
+
+/* Featured Services */
+
+@media (max-width: 375px) {
+    .FS-pageContainer {
+        Width: 375px;
+        Height: 386px;
+    }
+
+    .FS-title2 {
+        margin-left: 89px;
+    }
+
+    .FS-container {
+        margin-left: 78px;
+    }
+
+    .FS-mainContainer {
+        display: flex;
+    flex-direction: column;
+    }
+}

@@ -66,3 +66,20 @@ align-items: center; */
   display: flex;
   margin-right: 27.5px;
 }
+
+.abc{
+  display:flex;
+  }
+
+  /* Header */
+
+@media (max-width: 375px) {
+
+  .test {
+    display: none;
+  }
+  .h-mainContainer {
+    display: none;
+  }
+
+}
